@@ -1,0 +1,185 @@
+body {
+font-family:'Montserrat', sans-serif;
+font-size: 28px;
+}
+
+#container {
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#header {
+background-color: #F08080;
+color: white;
+text-align: center;
+padding: 5px;f
+}
+
+#header h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 5em;
+margin-bottom: -1px;
+margin-top: -9px;
+}
+
+#content {
+padding: 5px;
+table-layout: fixed;
+}
+
+
+#content h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+border-bottom: 1px dotted;
+border-width: 100px;
+}
+
+.work {
+text-align:center;
+}
+
+#nav {
+width: 400px;
+float: left;
+padding:100px;
+text-color: white;
+margin-left: 50px;
+}
+
+#nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+#nav .selected {
+background-color: black;
+}
+
+#main {
+float: center;
+text-color: black;
+text-align: auto;
+width: 100%;
+}
+
+#main h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+}
+
+#main h2 {
+text-transform: uppercase;
+}
+
+#footer {
+clear: both;
+text-align: left;
+background-color: #F08080;
+text-color: white;
+}
+
+footer {
+  color: white;
+  font-size: .8em;
+}
+
+#footer h2 {
+font-family: 'Bebas Neue', cursive;
+font-size: 2em;
+}
+
+.day {
+  color: #BAB6B6;
+  font-family: 'Staatliches';
+  font-size: .8em;
+  text-transform: uppercase;
+
+}
+
+#sidebar {
+  font-size: 0.75rem;
+background-color: white;
+}
+
+nav, footer {
+  font-family:'Montserrat', sans-serif;
+  background-color: #F08080;
+}
+
+
+/* link styles */
+a:link, a:visited { color: #222; }
+a:focus, a:hover, a:active { color:#B0E0E6; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 0em;
+}
+
+table, th, td {
+width: 70%;
+font-size: 30px;
+}
+
+table {
+width: 100%;
+text-align: center;
+font-family: Montserrat;
+display: table-cell;
+padding: 20px;
+display: table;
+length: 500px;
+table-layout: fixed;
+}
+
+tr:nth-child(odd) {
+background-color: #f2f2f2;
+width: 10px;
+}
+
+
+th {
+  background-color: #F08080;
+  color: white;
+}
+
+
+.photos img {
+ width: 27%;
+ height: auto;
+ border-radius: 50%;
+align: center;
+}
+
+.contact {
+border:none;
+text-align: left;
+margin-top: 70px;
+padding-top: 15px;
+padding-bottom: 10px;
+margin-left: 15px;
+}
+
+div#header ul {
+  list-style-type: none;
+margin-top:-10px;
+  padding: 0;
+}
+
+div#header li {
+display: inline;
+font-size: 40px;
+}
+
+div#header a {
+  padding: 8px;
+}
+
+div#nav ul {
+  list-style-type: circle;
+}
