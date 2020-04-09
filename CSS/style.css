@@ -1,0 +1,186 @@
+body {
+font-family:'Montserrat', sans-serif;
+font-size: 28px;
+}
+
+.container {
+   height: 90vh;
+   width: 1900px;
+   margin: 2rem auto;
+   display: grid;
+   grid-template-areas: "header header header"
+                        "left main main"
+			"work work work"
+                        "footer footer footer";
+   grid-template-rows: 1fr 2fr;
+   grid-template-columns: 1fr 2fr 1fr;
+}
+
+.cell-1 {
+   background: #F08080;
+   grid-area: header;
+   margin-bottom: -1px;
+   margin-top: -9px;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+
+.cell-1 h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 5em;
+margin-bottom: -50px;
+margin-top: -11px;
+}
+
+.cell-1 ul {
+list-style-type: none;
+padding: 5px;
+}
+
+.cell-1 li {
+display: inline;
+font-size: 40px;
+}
+
+/* link styles */
+a:link, a:visited { color: #222; }
+a:focus, a:hover, a:active { color:#B0E0E6; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 0em;
+}
+
+.cell-2 {
+padding:100px;
+text-color: #222;
+list-style-type: circle;
+text-align: center;
+}
+
+.cell-2 ul {
+list-style-type: none;
+padding: 0;
+}
+
+.cell-2 .selected {
+background-color: black;
+}
+
+.cell-3 {
+   grid-area: main;
+   text-color: #222;
+}
+
+.cell-3 h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+border-bottom: 1px dotted;
+border-width: 100px;
+}
+
+table, th, td {
+width: 100%;
+font-size: 30px;
+}
+
+table {
+width: 800px;
+text-align: center;
+font-family: Montserrat;
+display: table-cell;
+padding: 20px;
+display: table;
+length: 500px;
+table-layout: fixed;
+}
+
+tr:nth-child(odd) {
+background-color: #f2f2f2;
+width: 10px;
+}
+
+
+th {
+  background-color: #F08080;
+  color: white;
+}
+
+
+.photos img {
+ width: 27%;
+ height: auto;
+ border-radius: 50%;
+align: center;
+}
+
+.cell-4 {
+grid-area: work;
+text-align: center;
+}
+
+.cell-4  h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+border-bottom: 1px dotted;
+border-width: 100px;
+}
+
+.cell-4  h2 {
+text-transform: uppercase;
+}
+
+.cell-5 {
+   background: #F08080;
+   grid-area: footer;
+}
+.cell {
+   font-size: 2rem;
+   padding: 4rem;
+}
+
+p.ex1 {
+  max-width:10px;
+}
+
+.cell-5 {
+clear: both;
+text-align: left;
+background-color: #F08080;
+text-color: white;
+  color: white;
+  font-size: .8em;
+}
+
+.cell-5 h2 {
+font-family: 'Bebas Neue', cursive;
+font-size: 2em;
+margin-top: -100px;
+margin-bottom: -19px;
+}
+
+.day {
+  color: #BAB6B6;
+  font-family: 'Staatliches';
+  font-size: .8em;
+  text-transform: uppercase;
+
+}
+
+nav, .cell-5 {
+
+  background-color: #F08080;
+}
+
+.contact {
+border:none;
+text-align: left;
+margin-top: 70px;
+padding-top: 15px;
+padding-bottom: 10px;
+margin-left: 15px;
+}
